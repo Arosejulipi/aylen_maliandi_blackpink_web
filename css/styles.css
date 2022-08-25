@@ -86,7 +86,8 @@ body {
   flex-direction: row; }
 
 .flexbox {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap }
 
 /*TITULOS Y LETRAS*/
 .titulos {
@@ -363,23 +364,5 @@ p {
   .flexbox {
     display: flex;
     flex-wrap: wrap; } }
-    @media  (min-width: 515px){
-        .flexbox {
-            display: flex;
-            flex-direction: column-reverse;
-        }
-            .logo {
-                height: 60px;
-                width: 110px; }
-              .secciones {
-                height: 60px;
-                width: 60px;
-                padding-inline: 20%; }
-              .secciont {
-                font-size: smaller; }
-                .flex_hn {
-                    display: flex;
-                    align-items: center;
-                    }
-}
-      
+    
+   

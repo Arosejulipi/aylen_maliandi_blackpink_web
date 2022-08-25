@@ -97,6 +97,7 @@ color:#ffaabd;
 }
 .flexbox{
     display: flex;
+    flex-wrap: wrap
 }
 
 
@@ -425,10 +426,27 @@ border-radius: 20px;
                 
             }
         }
-    @media  (min-width: 515px){
-        
-        
-    }
+        @media  (min-width: 515px){
+          
+                .logo {
+                    height: 60px;
+                    width: 110px; }
+                  .secciones {
+                    height: 60px;
+                    width: 60px;
+                    padding-inline: 20%; }
+                  .secciont {
+                    font-size: smaller; }
+                    .flex_hn {
+                        display: flex;
+                        align-items: center;
+                        }
+                    }
+
+
+    
+
       
+
 
         

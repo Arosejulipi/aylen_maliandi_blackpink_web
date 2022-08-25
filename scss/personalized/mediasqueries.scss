@@ -71,4 +71,18 @@
     .flexbox {
       display: flex;
       flex-wrap: wrap; } }
+      @media  (min-width: 515px){
+        .logo {
+            @include sizes (110px,60px);  }
+          .secciones {
+            @include sizes (60px,60px); 
+            padding-inline: 20%; }
+          .secciont {
+            font-size: smaller; }
+            .flex_hn {
+                display: flex;
+                align-items: center;
+                }
+            }
+
   

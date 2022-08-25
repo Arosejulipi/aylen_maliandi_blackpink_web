@@ -1,0 +1,18 @@
+.logo {
+  @include sizes (200px,600px); }
+.imagen_t1{
+  @include sizes (100%,100%);
+  }
+  .imagen_t2{
+    @include sizes (30%,30%);
+  }
+  .imagen_t3{
+    @include sizes (10%,10%);
+  border-bottom:$--secondary;
+  background-color:$--primary;
+  border-radius: 20px;
+  }
+  .producto_img{
+    @include sizes (75%,75%);
+    }
+  

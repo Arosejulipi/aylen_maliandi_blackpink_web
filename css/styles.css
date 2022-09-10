@@ -7,7 +7,7 @@
 @import url(./misc/_variables.scss);
 * {
   margin: 0%;
-  padding: 1px;
+  padding: 3px;
   box-sizing: border-box; }
 
 body {
@@ -86,8 +86,10 @@ body {
   flex-direction: row; }
 
 .flexbox {
-  display: flex;
-  flex-wrap: wrap }
+  text-align: center;
+display: flex;
+padding: 2%;
+}
 
 /*TITULOS Y LETRAS*/
 .titulos {
@@ -156,8 +158,8 @@ p {
       border-radius: 20px; }
 
 .producto_img {
-  height: 75%;
-  width: 75%; }
+  height: 250px;
+  width: 250px; }
 
 /*FORMULARIO DE CONTACTO*/
 .form-style-9 {
@@ -256,16 +258,18 @@ p {
   margin: auto;
   margin-top: 3%;
   max-width: 30%;
-  padding: 10px 15px;
+  padding: 8px 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); 
+}
   .box:hover {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     animation-name: example;
     animation-duration: 0.25s;
     border-left: 8px solid #ffaabd;
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); 
+  }
 
 @keyframes example {
   0% {
@@ -312,7 +316,12 @@ p {
     border-style: solid;
     border-color: #ffaabd; }
   p {
-    font-size: medium; } }
+    font-size: medium; } 
+    .flexbox {
+      display: flex;
+      flex-wrap: wrap; }
+    }
+    
 
 @media (min-width: 768px) and (max-width: 992px) {
   .flex_hn {
@@ -343,7 +352,11 @@ p {
     border-style: solid;
     border-color: #ffaabd; }
   p {
-    font-size: medium; } }
+    font-size: medium; } 
+    .flexbox {
+      display: flex;
+      flex-wrap: wrap; }
+    }
 
 @media (min-width: 993px) {
   .logo {
@@ -360,9 +373,55 @@ p {
     border-radius: 2%;
     border-width: 5px;
     border-style: solid;
-    border-color: #ffaabd; }
+    border-color: #ffaabd; 
+  }
   .flexbox {
     display: flex;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; } 
+  }
+
+  @media (min-width: 320px) and (max-width: 479px){
+    .flex_hn {
+      display: flex;
+      flex-wrap: wrap; }
+    .logo {
+      height: 20px;
+      width: 75px; }
+    .secciones {
+      height: 75px;
+      width: 75px;
+      padding-inline: 20%; }
+    .secciont {
+      font-size: smaller; }
+    .titulos {
+      margin-block: 5%; }
+    .box {
+      background-color: #ffffff;
+      margin: auto;
+      margin-top: 10%;
+      max-width: 70%;
+      padding: 15px 15px;
+      border-radius: 2%;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #ffaabd; }
+    p {
+      font-size: large; } 
+      .flexbox {
+        display: flex;
+        flex-wrap: wrap; }
+        .producto_img{
+          width: 150px;
+          height: 150px;
+        }
+        .imagen_t1 {
+          height: 100%;
+          width: 100%; }
+          .imagen_t2 {
+            height: 300px;
+            width: 300px; }
+      
+      }
+  
     
    

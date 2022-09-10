@@ -24,7 +24,11 @@
       border-style: solid;
       border-color: $--primary; }
     p {
-      font-size: medium; } }
+      font-size: medium; }
+      .flexbox {
+        display: flex;
+        flex-wrap: wrap !important; }
+       }
   
   @media (min-width: 768px) and (max-width: 992px) {
     .flex_hn {
@@ -53,6 +57,9 @@
       border-color:$--primary }
     p {
       font-size: medium; } 
+      .flexbox {
+        display: flex;
+        flex-wrap: wrap; }
   }
   @media (min-width: 993px) {
     .logo {

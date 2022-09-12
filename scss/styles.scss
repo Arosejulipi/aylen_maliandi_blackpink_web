@@ -177,9 +177,15 @@ width: 10%;
 border-bottom: white;
 background-color: #ffaabd;
 border-radius: 20px;
+&4{
+
+    width: 700px;
+height: 700px
 }
 }
 }
+}
+.imagen_t
 .producto_img{
     height:75% ;
     width: 75%;
@@ -443,6 +449,69 @@ border-radius: 20px;
                         }
                     }
 
+                    @media (min-width: 320px) and (max-width: 479px){
+                        .flex_hn {
+                          display: flex;
+                          flex-wrap: wrap;
+                          background-color: #ffaabd;
+                          height: 100%; 
+                        width: 100%;}
+                      .logo {
+                        height: 30px;
+                        width: 200px; }
+                      .secciones {
+                        height: 40px;
+                        width: 40px;
+                  }
+                      .secciont {
+                        font-size: smaller; }
+                      .titulos {
+                        margin-block: 5%; }
+                      .box {
+                        background-color: #ffffff;
+                        margin: auto;
+                        margin-top: 10%;
+                        max-width: 70%;
+                        padding: 15px 15px;
+                        border-radius: 2%;
+                        border-width: 5px;
+                        border-style: solid;
+                        border-color: #ffaabd; }
+                  
+                        .flexbox {
+                          display: flex;
+                          flex-wrap: wrap;
+                         }
+                          .producto_img{
+                            width: 150px;
+                            height: 150px;
+                          }
+                          .imagen_t2 {
+                            height: 100%;
+                            width: 100%; }
+                            .imagen_t3 {
+                              height: 30%;
+                              width: 30%;
+                              border-bottom: white;
+                              background-color: #ffaabd;
+                              border-radius: 20px; }
+                            .imagen_t4 {
+                              height: 250px;
+                              width: 250px; }
+                              .iredes {
+                          height: 40px;
+                          width: 40px; }
+                        
+                          .navegacion {
+                            display: flex;
+                           flex-wrap: wrap;
+                           justify-content: center }
+                      
+                        }
+                  
+                    
+                      
+                     
 
     
 

@@ -92,4 +92,65 @@
                 }
             }
 
+            @media (min-width: 320px) and (max-width: 479px){
+              .flex_hn {
+                display: flex;
+                flex-wrap: wrap;
+                background-color: $--primary;
+                @include sizes (100%,100%);
+              }
+            .logo {
+              @include sizes(30x,200px);
+             }
+            .secciones {
+              @include sizes (40px,40px);
+        }
+            .secciont {
+              font-size: smaller; }
+            .titulos {
+              margin-block: 5%; }
+            .box {
+              background-color: $--secondary;
+              margin: auto;
+              margin-top: 10%;
+              max-width: 70%;
+              padding: 15px 15px;
+              border-radius: 2%;
+              border-width: 5px;
+              border-style: solid;
+              border-color:$--primary; }
+            p {
+              font-size: large; } 
+              .flexbox {
+                display: flex;
+                flex-wrap: wrap;
+               }
+                .producto_img{
+                  @include sizes (150px,150px);
+                }
+                .imagen_t2 {
+                  @include sizes (100%,100%);
+                 }
+                  .imagen_t3 {
+                    @include sizes (30%,30%);
+                    border-bottom: $--secondary;
+                    background-color:$--primary;
+                    border-radius: 20px; }
+                  .imagen_t4 {
+                    @include sizes (250px,250px);
+                   }
+                    .iredes {
+                      @include sizes (40px,40px);
+                     }
+              
+                .navegacion {
+                  display: flex;
+                 flex-wrap: wrap;
+                 justify-content: center }
+            
+              }
+              
+        
+          
+            
   

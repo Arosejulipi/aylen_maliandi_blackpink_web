@@ -328,7 +328,6 @@ padding-top: 1px;
       flex-wrap: wrap; }
     }
     
-
 @media (min-width: 768px) and (max-width: 992px) {
   .flex_hn {
     display: flex;
@@ -414,8 +413,7 @@ padding-top: 1px;
       border-width: 5px;
       border-style: solid;
       border-color: #ffaabd; }
-    p {
-      font-size: large; } 
+
       .flexbox {
         display: flex;
         flex-wrap: wrap;

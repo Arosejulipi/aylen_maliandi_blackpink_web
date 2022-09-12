@@ -7,7 +7,7 @@
 @import url(./misc/_variables.scss);
 * {
   margin: 0%;
-  padding: 3px;
+  padding: 5px;
   box-sizing: border-box; }
 
 body {
@@ -45,9 +45,9 @@ body {
   list-style: none; }
 
 .secciones {
-  height: 100px;
-  width: 100px;
-  padding-left: 10%; }
+  height: 80px;
+  width: 80px;
+   }
 
 /*REDES Y DERECHOS RESERVADOS (FOOTER)*/
 .derechos {
@@ -130,7 +130,9 @@ p {
   font-size: medium;
   position: relative;
   overflow: hidden;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+padding-top: 1px; 
+}
   .secciont:after {
     content: "";
     position: absolute;
@@ -147,18 +149,22 @@ p {
 .imagen_t1 {
   height: 100%;
   width: 100%; }
-  .imagen_t12 {
+  .imagen_t2 {
     height: 30%;
     width: 30%; }
-    .imagen_t123 {
+    .imagen_t3 {
       height: 10%;
       width: 10%;
       border-bottom: white;
       background-color: #ffaabd;
       border-radius: 20px; }
+      .imagen_t4{
+      width: 700px;
+      height: 700px;     
+ }
 
 .producto_img {
-  height: 250px;
+  height: 250px; 
   width: 250px; }
 
 /*FORMULARIO DE CONTACTO*/
@@ -381,16 +387,19 @@ p {
   }
 
   @media (min-width: 320px) and (max-width: 479px){
-    .flex_hn {
-      display: flex;
-      flex-wrap: wrap; }
+      .flex_hn {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #ffaabd;
+        height: 100%; 
+      width: 100%;}
     .logo {
-      height: 20px;
-      width: 75px; }
+      height: 30px;
+      width: 200px; }
     .secciones {
-      height: 75px;
-      width: 75px;
-      padding-inline: 20%; }
+      height: 40px;
+      width: 40px;
+}
     .secciont {
       font-size: smaller; }
     .titulos {
@@ -409,19 +418,35 @@ p {
       font-size: large; } 
       .flexbox {
         display: flex;
-        flex-wrap: wrap; }
+        flex-wrap: wrap;
+       }
         .producto_img{
           width: 150px;
           height: 150px;
         }
-        .imagen_t1 {
+        .imagen_t2 {
           height: 100%;
           width: 100%; }
-          .imagen_t2 {
-            height: 300px;
-            width: 300px; }
+          .imagen_t3 {
+            height: 30%;
+            width: 30%;
+            border-bottom: white;
+            background-color: #ffaabd;
+            border-radius: 20px; }
+          .imagen_t4 {
+            height: 250px;
+            width: 250px; }
+            .iredes {
+        height: 40px;
+        width: 40px; }
       
+        .navegacion {
+          display: flex;
+         flex-wrap: wrap;
+         justify-content: center }
+    
       }
+
   
     
    

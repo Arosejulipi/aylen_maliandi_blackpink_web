@@ -462,6 +462,7 @@ height: 700px
                       .secciones {
                         height: 40px;
                         width: 40px;
+                        padding-inline-start: 20%
                   }
                       .secciont {
                         font-size: smaller; }
@@ -508,7 +509,47 @@ height: 700px
                            justify-content: center }
                       
                         }
-                  
+                        @media (min-width: 1400px) and (max-width: 2560px){
+                            .secciones {
+                              height: 80px;
+                              width: 80px;
+                              padding-inline-start: 20%;
+                        }
+                            .titulos {
+                            font-size: 100px; }
+                            
+                            .textos {
+                              font-size: 70px; }
+                            
+                            .subtitulos {
+                              font-size: 80px; }
+                            
+                            h3 {
+                              font-size: 65px; }
+                            
+                            p {
+                              font-size: 65px; }
+                            
+                            .textos_p {
+                              font-size: 60px; }
+                    
+                              .imagen_t3{
+                                height: 40%;
+                                width: 40%;
+                             
+                              }
+                              .imagen_t2{
+                                height: 70%;
+                                width: 70%;
+                              }
+                              .imagen_t4{
+                                height: 900px;
+                              width: 900px;          
+                            }
+                    
+                          }
+                      
+                        
                     
                       
                      

@@ -104,6 +104,7 @@
              }
             .secciones {
               @include sizes (40px,40px);
+              padding-inline-start: 20%;
         }
             .secciont {
               font-size: smaller; }
@@ -150,6 +151,42 @@
             
               }
               
+              @media (min-width: 1400px) and (max-width: 2560px){
+                .secciones {
+                  @include sizes (80px,80px);
+            }
+                .titulos {
+                font-size: 100px; }
+                
+                .textos {
+                  font-size: 70px; }
+                
+                .subtitulos {
+                  font-size: 80px; }
+                
+                h3 {
+                  font-size: 65px; }
+                
+                p {
+                  font-size: 65px; }
+                
+                .textos_p {
+                  font-size: 60px; }
+        
+                  .imagen_t3{
+                    @include sizes (40%,40%);
+                 
+                  }
+                  .imagen_t2{
+                    @include sizes (70%,70%);
+                  }
+                  .imagen_t4{
+                    @include sizes (900px,900px);
+                }
+        
+              }
+          
+            
         
           
             
